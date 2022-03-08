@@ -1,7 +1,6 @@
 import sys
 N = sys.stdin.readline()
 P = list(map(int, sys.stdin.readline().split(' ')))
-
 P.sort()
 result =0
 for i in range(len(P)):
