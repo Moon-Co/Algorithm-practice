@@ -11,6 +11,7 @@
 import collections
 def solution(participant, completion):
     test_hash = collections.Counter(participant)-collections.Counter(completion)
+    print(test_hash)
     return list(test_hash.keys())[0]
 a = ["mislav", "stanko", "mislav", "ana"]
 b = ["stanko", "ana", "mislav"]
